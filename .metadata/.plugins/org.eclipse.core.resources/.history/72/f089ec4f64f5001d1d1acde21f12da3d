@@ -34,8 +34,6 @@ public class IntergerTest {
 		long longValue = 3456789000011L;
 		long longMax = Long.MAX_VALUE;
 		long longMin = Long.MIN_VALUE;
-		//long longOver = 378291991919199191919191L;
-		
 		System.out.printf("Value of long value is %d \n", longValue);
 		System.out.printf("Value of longMax value is %d \n", longMax);
 		System.out.printf("Value of longMin value is %d \n", longMin);
