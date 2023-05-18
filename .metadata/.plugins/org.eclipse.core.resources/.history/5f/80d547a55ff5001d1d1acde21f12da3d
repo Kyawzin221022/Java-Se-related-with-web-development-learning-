@@ -1,0 +1,13 @@
+package java_basics;
+
+public class IntergerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte byteValue = 25;
+		System.out.printf("Value of byte is  %d\n", byteValue);
+		short shortValue = 3400;
+		System.out.printf("Value of short is %d\n",shortValue);
+	}
+
+}
