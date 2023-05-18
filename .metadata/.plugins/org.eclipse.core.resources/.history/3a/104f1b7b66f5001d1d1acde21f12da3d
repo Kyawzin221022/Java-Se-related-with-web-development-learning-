@@ -1,0 +1,12 @@
+package java_basics;
+
+public class FloatingPointTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float floatValue = 23.456789099399332f;
+		System.out.printf("Value of float is %d\n", floatValue);
+	}
+
+}
