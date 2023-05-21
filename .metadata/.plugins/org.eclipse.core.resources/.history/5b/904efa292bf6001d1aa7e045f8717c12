@@ -1,0 +1,16 @@
+package java_basics;
+
+public class LogicalOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 20 ;
+		int y = 30;
+		int z = 40;
+		 
+		boolean result1 = y > x && z > y;
+		
+	}
+
+}

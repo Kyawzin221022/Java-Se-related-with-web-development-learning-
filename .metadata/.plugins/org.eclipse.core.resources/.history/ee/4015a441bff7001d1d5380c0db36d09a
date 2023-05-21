@@ -1,0 +1,48 @@
+package java_basics;
+
+public class IfTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 100;
+		if ( x > 10)
+		{
+			System.out.println("x is greater than 10");
+			System.out.println("I like x to be  greater than 10");
+		}
+		else
+		{
+			System.out.println("x is lesser than 10");
+		}
+		
+		int age = 20;
+		boolean nrc = true;
+		
+		// if with nested if
+	/*	if (nrc == true)
+		{
+
+			if(age >= 18) 
+			{
+				System.out.println("You van vote");
+			}
+			else
+			{
+				System.out.println("You cannot vote");
+			}
+		}
+		else System.out.println("You cannot vote");*/
+		if( nrc && age >=18)
+		{
+			System.out.println("You can vote");
+		}
+		else
+		{
+			System.out.println("You cannot vote");
+		}
+	
+	}
+	
+
+}
