@@ -1,0 +1,39 @@
+package java_basics;
+
+public class StringOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1 = " This is just test string";
+		
+		//Searching
+		//contain method check if the string contains given string
+		String test = "just";
+		boolean result = s1.contains(test);
+		System.out.println("This is contain method");
+		System.out.println("Result = "+ result);
+		
+		//startswith method check if the string starts with the given string
+		String test1 = "This";
+		boolean result1 = s1.startsWith(test1);
+		System.out.println("This is startswith method");
+		System.out.println("Result = " + result1);
+		
+		//endswith method check if the string ends with given string
+		String test2 = "string";
+		boolean result2 = s1.endsWith(test2);
+		System.out.println("This is endswith method");
+		System.out.println("Result = "  + result2);
+		
+		//examining charactor
+		
+		//charAt method give charactor at the given syntax
+		char smallU = s1.charAt(10);
+		System.out.println("This is charAt method");
+		System.out.println("small u = " + smallU);
+		
+		
+	}
+
+}

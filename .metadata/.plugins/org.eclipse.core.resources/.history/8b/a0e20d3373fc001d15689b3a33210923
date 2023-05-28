@@ -1,0 +1,18 @@
+package java_basics;
+
+public class StringOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1 = " This is just test string";
+		
+		//Searching
+		String test = "just";
+		boolean result = s1.contains(test);
+		System.out.println("This is contain method");
+		System.out.println("Result = "+ result);
+		
+	}
+
+}

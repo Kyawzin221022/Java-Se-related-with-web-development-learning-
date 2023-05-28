@@ -1,0 +1,33 @@
+package java_basics;
+
+public class MultiArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//declare form
+		int [][] marks = new int [3][4];
+		
+		//Mg Mg's GED Marks
+		//for row1
+		marks[0][0] = 160;  // Literature
+		marks[0][1] = 180;  // Language art 
+		marks[0][2] = 200;	// Math
+		marks[0][3] = 180;  // Science
+		
+		//MaSaspai's GED Marks
+		
+		//for row2
+		
+		marks[1][0] = 150;
+		marks[1][1] = 170;
+		marks[1][2] = 160;
+		marks[1][3] = 140;
+		
+		
+		
+		
+		
+	}
+
+}

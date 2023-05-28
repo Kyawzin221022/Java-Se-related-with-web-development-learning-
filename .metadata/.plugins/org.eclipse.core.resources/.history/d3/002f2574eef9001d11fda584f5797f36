@@ -1,0 +1,19 @@
+package java_basics;
+
+public class unsignedDataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// unsigned datatype
+		
+		char charVal = 'A';
+		char charOp = char (charVal -1);
+		
+		System.out.printf("This is charVal", charVal);
+		
+		
+	}
+
+}

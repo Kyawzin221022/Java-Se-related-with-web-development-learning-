@@ -1,0 +1,63 @@
+package java_basics;
+
+import java.util.Scanner;
+
+public class NewSwitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter your first Operand ");
+		double firstOperand = userInput.nextDouble();
+		
+		System.out.println("Enter your second Operand ");
+		double secondOperand = userInput.nextDouble();
+		
+		System.out.println("Enter your Operator : + - * / % ");
+		char operator = userInput.next().charAt(0);
+		userInput.close();
+		// switch labled expression
+		double result = switch (operator) {
+		case '+' -> {
+			double total =	firstOperand + secondOperand;
+			yield total;
+		}
+		
+		case '-' -> firstOperand - secondOperand ;
+		
+		case '*' -> firstOperand * secondOperand ;
+		
+		case '/' -> firstOperand / secondOperand ;
+		
+		case '%' -> firstOperand % secondOperand ;
+		
+		default -> 0.0;
+		} ;	
+		
+		System.out.printf("Result is %.1f\n", result);
+		
+		// switch case expression
+		double result1 = switch (operator) {
+		case '+': {
+			
+			yield (firstOperand + secondOperand);
+		}
+		case '-': {
+		
+			yield (firstOperand - secondOperand);
+		}
+		case '*': {
+			
+			yield (firstOperand * secondOperand);
+		}
+		case '/': {
+			
+			yield (firstOperand / secondOperand);
+		}
+		};
+		System.out.println("This is switch case expression");
+		System.out.printf("%.1f", result1);
+	}
+
+}

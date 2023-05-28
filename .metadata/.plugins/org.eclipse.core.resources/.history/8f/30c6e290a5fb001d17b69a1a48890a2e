@@ -1,0 +1,13 @@
+package oop;
+
+public class CarObjectTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(new Car()); // instantiate - create object;
+		
+		
+	}
+
+}

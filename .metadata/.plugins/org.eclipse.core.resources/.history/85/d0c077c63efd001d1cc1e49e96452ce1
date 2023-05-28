@@ -1,0 +1,20 @@
+package java_basics;
+
+public class MultiArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//declare form
+		int [][] marks = new int [3][4];
+		
+		marks[0][0] = 160;
+		marks[0][1] = 180;
+		marks[0][2] = 2000;
+		marks[0][3] = 180;
+		
+		
+		
+	}
+
+}

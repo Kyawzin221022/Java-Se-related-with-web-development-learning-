@@ -1,0 +1,33 @@
+package java_basics;
+
+import java.util.Scanner;
+
+public class NewSwitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter your first Operand ");
+		double firstOperand = userInput.nextDouble();
+		
+		System.out.println("Enter your second Operand ");
+		double secondOperand = userInput.nextDouble();
+		
+		System.out.println("Enter your Operator ");
+		char operator = userInput.next().charAt(0);
+		userInput.close();
+		
+		double result = switch (operator) {
+		case '+' -> firstOperand + secondOperand;
+		
+		
+		
+		default ->
+		throw new IllegalArgumentException("Unexpected value: " + operator);
+		}
+		
+		
+	}
+
+}

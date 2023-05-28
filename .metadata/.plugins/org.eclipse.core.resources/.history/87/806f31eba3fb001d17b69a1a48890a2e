@@ -1,0 +1,14 @@
+package oop;
+
+public class Car {
+
+	long id;
+	String brand;
+	String model;
+	String color;
+	double price;
+	int speedHour;
+	String engineType;
+	boolean ev;
+	
+}
