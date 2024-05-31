@@ -5,4 +5,4 @@ want to improve my image also my wallet
 
 pls help me pls
 
-what the fuck is going 
+what the fuck is going  on
