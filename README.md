@@ -26,7 +26,7 @@ haha
 
 just delete it baby
 
-o
+on
 ok
 
 will delete now 
